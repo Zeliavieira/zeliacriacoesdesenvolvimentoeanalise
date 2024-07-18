@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limite à Beira do Leito: Um Alerta sobre Saúde Mental na Enfermagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0056b3;
+        }
+
+        .scene {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+
+        .prontuario {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Limite à Beira do Leito: Um Alerta sobre Saúde Mental na Enfermagem</h1>
+        
+        <div id="scene1" class="scene">
+            <h2>Cena 1: A Pressão da Noite</h2>
+            <p><strong>Narrador:</strong> Carolina está correndo de um lado para o outro, atendendo a múltiplos chamados de emergência. Ela mal teve tempo para uma pausa ou um gole de água.</p>
+            <p><strong>Carolina:</strong> (respirando rápido) Mais um paciente em emergência... Estou no limite.</p>
+        </div>
+        
+        <div id="scene2" class="scene">
+            <h2>Cena 2: O Erro Crítico</h2>
+            <p><strong>Narrador:</strong> Entre um atendimento e outro, Carolina é chamada para administrar medicação a um paciente crítico, Sr. Silva, que necessita de uma dose precisa de um antibiótico intravenoso.</p>
+            <img src="imagens/PRONTUÁRIO.jpeg" alt="Prontuário do Paciente" class="prontuario">
+
+            <p><strong>Carolina:</strong> (verificando a prescrição) Antibiótico para o Sr. Silva... 200 mg. Ok, vamos lá.</p>
+            <p><strong>Narrador:</strong> Devido à pressão do momento e à exaustão acumulada, Carolina se confunde nas dosagens e acaba administrando uma dose que é o dobro da prescrita.</p>
+        </div>
+        
+        <div id="scene3" class="scene">
+            <h2>Cena 3: Consequências Imediatas</h2>
+            <p><strong>Narrador:</strong> Após a administração da medicação, Carolina percebe seu erro quase instantaneamente ao verificar novamente a prescrição.</p>
+            <img src="imagens/PRONTUÁRIO.jpeg" alt="Prontuário do Paciente" class="prontuario">
+
+            <p><strong>Carolina:</strong> (horrorizada) Não... não pode ser. Eu administrei o dobro da dose.</p>
+            <p><strong>Narrador:</strong> O tempo parece congelar enquanto Carolina luta para entender a extensão do erro cometido. A adrenalina a impulsiona, enquanto ela corre para informar a equipe médica sobre o ocorrido.</p>
+        </div>
+        
+        <div id="scene4" class="scene">
+            <h2>Cena 4: A Repercussão</h2>
+            <p><strong>Narrador:</strong> A equipe médica entra em ação imediatamente, monitorando de perto o Sr. Silva e tomando medidas para minimizar os danos causados pela overdose.</p>
+            <p><strong>Médico:</strong> (com seriedade) Carolina, você está bem? Precisamos revisar o protocolo de medicação com você.</p>
+            <p><strong>Carolina:</strong> (com voz trêmula) Eu não sei como... como deixei isso acontecer.</p>
+            <p><strong>Narrador:</strong> Por um triz, o Sr. Silva é estabilizado sem complicações graves. A noite que começou com tanto caos quase termina em tragédia.</p>
+        </div>
+        
+        <div id="conclusion" class="scene">
+            <h2>Conclusão: A Reflexão</h2>
+            <p><strong>Narrador:</strong> No final do turno, Carolina se encontra sentada na sala de descanso, o peso do que quase aconteceu ainda sobre seus ombros.</p>
+            <p><strong>Carolina:</strong> (em pensamento) Eu me esforcei tanto para fazer tudo certo... mas estava tão cansada. Preciso de ajuda.</p>
+            <p><strong>Narrador:</strong> A cena se dissolve enquanto Carolina olha para o futuro incerto, mas com uma determinação renovada para buscar apoio e cuidar de sua saúde mental, antes que outro erro possa ocorrer.</p>
+        </div>
+    </div>
+    
+    <audio id="narration" controls style="display:none;">
+        <source src="imagens/WhatsApp Audio 2024-07-10 at 08.51.39.mp4" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    
+    <button onclick="playNarration()">Ouvir Narrador</button>
+    
+    <script>
+        function playNarration() {
+            const audio = document.getElementById('narration');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
